@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <title>The Golden Legacy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=poppins:400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <img src="cart.png" width="30px" height="30px">
+        <img src="menu.png" class="menu-icon" 
+        onclick="menutoggle()">
+        </div>
+    </div>
+    
+        
+<!-------- account page --------->
+        
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+            <img src="homelogo.png" width="100%">
+            </div>
+            
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span>Login</span>
+                        <span>Register</span>
+                    </div>
+                    
+                    <form>
+                        <input type="text" placeholder="Username">
+                        <input type="Password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forgot Password</a>
+                    </form>
+                    
+                    <form>
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <input type="Password" placeholder="Password">
+                        <button type="submit" class="btn">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>        
+</div>
+        
+<!-------- footer --------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="play%20store.png">
+                    <img src="appstore.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                <img src="black.png">
+                <p>Our Purpose is to Sustainably Make the Pleasure and Benifits of Perfume Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+                </div>
+                <div class="footer-col-4">
+                <h3>Follow US</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter(X)</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - The Golden Legacy</p>
+        </div>
+    </div>
+<!-------- js for tooggle menu --------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if (MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+        
+</body>
+</html>
