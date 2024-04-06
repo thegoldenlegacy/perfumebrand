@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "thegoldenlegacy.github.io",
+  "Id": "346b7d7f-226a-45d9-99e0-a29e4b232b07"
+}
